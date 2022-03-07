@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WalmartDemo">
         <activity
+            android:name=".CategoryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryList"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity

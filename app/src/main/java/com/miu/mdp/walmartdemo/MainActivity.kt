@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         User("ali1", "ziwa", "aziwa1@miu.edu", "abcd1"),
         User("ali2", "ziwa", "aziwa2@miu.edu", "abcd2"),
         User("ali3", "ziwa", "aziwa3@miu.edu", "abcd3"),
-        User("ali4", "ziwa", "aziwa4@miu.edu", "abcd35"),
+        User("ali4", "ziwa", "a", "a"),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

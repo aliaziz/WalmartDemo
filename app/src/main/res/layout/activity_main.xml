@@ -80,7 +80,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/password_title" />
 
-        <Button
+        <TextView
             android:id="@+id/forgot_password_button"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
@@ -91,7 +91,7 @@
             app:layout_constraintEnd_toEndOf="@id/password_edit_text"
             app:layout_constraintTop_toBottomOf="@id/password_edit_text" />
 
-        <TextView
+        <Button
             style="?android:attr/selectableItemBackground"
             android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
@@ -101,8 +101,6 @@
             android:text="@string/sign_in"
             android:textAllCaps="false"
             android:autoLink="all"
-            android:clickable="true"
-            android:focusable="true"
             app:layout_constraintEnd_toEndOf="@id/password_edit_text"
             app:layout_constraintStart_toStartOf="@id/password_edit_text"
             app:layout_constraintTop_toBottomOf="@id/forgot_password_button" />

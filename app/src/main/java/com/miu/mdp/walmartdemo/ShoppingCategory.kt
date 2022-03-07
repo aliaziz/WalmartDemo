@@ -1,6 +1,7 @@
 package com.miu.mdp.walmartdemo
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +24,9 @@ class ShoppingCategory : AppCompatActivity() {
             }
             electronics.setOnClickListener {
                 toast(ActivityShoppingCategoryBinding::electronics.name)
+                Intent(this@ShoppingCategory, CategoryList::class.java).also {
+                    startActivity(it)
+                }
             }
             beauty.setOnClickListener {
                 toast(ActivityShoppingCategoryBinding::beauty.name)
